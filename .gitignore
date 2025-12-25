@@ -105,3 +105,17 @@ venv.bak/
 
 # Poetry
 poetry.lock
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# NFL Data Exports (keep locally, don't upload)
+nfl_data_export/
+nfl_data_test/
+nfl_data_multi_test/
+
+# Large JSON data files
+players_week*.json
+josh_allen_*.json
+*_history.json
